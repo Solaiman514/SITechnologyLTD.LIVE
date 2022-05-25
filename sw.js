@@ -5,7 +5,7 @@ const staticAssets = [
   'index.html',
   'index.js',
   'logo512-1.png',
-  'logo192 (2).png',
+  'logo512-1.png',
   'manifest.webmanifest',
   'reset.css',
   'sw.js',
