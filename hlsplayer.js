@@ -8,7 +8,7 @@ var url_6 = 'aHR0cHM6Ly90ZW1waW5mb2Jhc2UuamFnb2JkLmNvbTo0NDQvY1pWeWRtVnlYOFJwYkV
 if (Hls.isSupported()) {
   var video = document.getElementById('video');
   var hls = new Hls();
-  hls.loadSource(atob(url_6));
+  hls.loadSource(atob(url_4));
   hls.attachMedia(video);
   hls.on(Hls.Events.MANIFEST_PARSED,function() {
     video.play();
